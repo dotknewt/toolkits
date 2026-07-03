@@ -24,7 +24,6 @@ Pick the tier by the size of the change, not by which file was touched:
 
 | Plugin | Version | Purpose | Primary entry points |
 |---|---|---|---|
-| `agency-toolkit` | 1.0.3 | Build new plugins, agents, skills, commands, hooks | `plugin-validator` agent, `agent-creator` agent, `/create-plugin` command, `/create-skill` command, `/create-agent` command, `/pin-plugins` command, `manifest-lint` skill |
 | `github-toolkit` | 1.1.2 | Scaffold `.github/` metadata; branch hygiene; issue/CI workflows | `/github-scaffold` command, `branch-warden` agent, `issue-filer` agent |
 | `instruction-management` | 1.5.2 | Audit and maintain AGENTS.md; nudges revision on busy sessions | `instruction-management` skill (orchestrates `revise-instructions` and `restructure-instructions` sub-skills by default) |
 | `hooks-toolkit` | 1.0.0 | Composable safety/hygiene hooks — force-push guard, secret scanner, manifest validators, branch nudges, dirty-tree check | hook scripts under `hooks/` |
