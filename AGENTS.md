@@ -29,3 +29,5 @@ Pick the tier by the size of the change, not by which file was touched:
 | `hooks-toolkit` | 1.0.0 | Composable safety/hygiene hooks — force-push guard, secret scanner, manifest validators, branch nudges, dirty-tree check | hook scripts under `hooks/` |
 | `ludus-toolkit` | 0.1.0 | Ludus cyber-range toolkit — CLI/range-config/environment/troubleshooting skills, bundled Ludus MCP server | 4 `ludus-*` skills, `mcp/ludus` MCP server |
 | `docker-toolkit` | 0.1.0 | Build and validate Docker artifacts — multi-stage Dockerfiles, dockerizing MCP servers for the Docker MCP Gateway | `multi-stage-dockerfile` skill, `dockerize-mcp-server` skill, `dockerize-mcp-server` agent |
+| `superpowers` | 6.1.1 | Core skills library: TDD, debugging, collaboration patterns, proven techniques (tracks upstream `obra/superpowers`) | `using-superpowers` skill, `SessionStart`-injected bootstrap |
+| `engineering-toolkit` | 0.1.0 | Idea-to-ship engineering flow: grill → PRD → issues → TDD implement → code review, routed by `ask-matt`, plus standalone debugging/design/prototyping skills | `ask-matt` skill (router) |

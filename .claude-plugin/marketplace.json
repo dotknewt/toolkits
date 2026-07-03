@@ -55,6 +55,26 @@
 				"name": "dotKnewt",
 				"email": "dotknewt@keemail.me"
 			}
+		},
+		{
+			"name": "superpowers",
+			"source": "./superpower-toolkit",
+			"description": "Core skills library for Claude Code: TDD, debugging, collaboration patterns, and proven techniques",
+			"version": "6.1.1",
+			"author": {
+				"name": "Jesse Vincent",
+				"email": "jesse@fsck.com"
+			}
+		},
+		{
+			"name": "engineering-toolkit",
+			"source": "./engineering-toolkit",
+			"description": "Idea-to-ship engineering flow — grilling, PRD/issue breakdown, TDD implementation, and code review, routed by ask-matt.",
+			"version": "0.1.0",
+			"author": {
+				"name": "dotKnewt",
+				"email": "dotknewt@keemail.me"
+			}
 		}
 	]
 }
