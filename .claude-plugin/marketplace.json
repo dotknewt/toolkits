@@ -1,0 +1,60 @@
+{
+	"name": "dotknewt-toolkits",
+	"description": "Composite plugins bundling skills, agents, commands, and hooks together — split out of dotknewt/agency for granular, mix-and-match installs.",
+	"owner": {
+		"name": "dotKnewt",
+		"email": "dotknewt@keemail.me"
+	},
+	"plugins": [
+		{
+			"name": "instruction-management",
+			"source": "./instruction-management",
+			"description": "Tools to maintain and improve project instruction files (AGENTS.md and legacy CLAUDE.md) — audit quality, capture session learnings, and keep project instructions current.",
+			"version": "1.5.2",
+			"author": {
+				"name": "dotKnewt",
+				"email": "dotknewt@keemail.me"
+			}
+		},
+		{
+			"name": "github-toolkit",
+			"source": "./github-toolkit",
+			"description": "Scaffold GitHub repo metadata — issue templates and CI workflows. /github-scaffold picks the task; /create-issue-template and /scaffold-ci-workflow run the subtasks.",
+			"version": "1.1.2",
+			"author": {
+				"name": "dotKnewt",
+				"email": "dotknewt@keemail.me"
+			}
+		},
+		{
+			"name": "agency-toolkit",
+			"source": "./agency-toolkit",
+			"description": "Local fork of Anthropic's plugin-dev toolkit — skills, agents, and commands for building Claude Code plugins.",
+			"version": "1.0.3",
+			"author": {
+				"name": "dotKnewt",
+				"email": "dotknewt@keemail.me"
+			}
+		},
+		{
+			"name": "hooks-toolkit",
+			"source": "./hooks-toolkit",
+			"description": "Composable safety and hygiene hooks — force-push guard, secret scanner, plugin/skill manifest validators, branch nudges, and dirty-tree stop check.",
+			"version": "1.0.0",
+			"author": {
+				"name": "dotKnewt",
+				"email": "dotknewt@keemail.me"
+			}
+		},
+		{
+			"name": "docker-toolkit",
+			"source": "./docker-toolkit",
+			"description": "Build and validate Docker artifacts — multi-stage Dockerfiles, and packaging MCP servers as containers runnable via the Docker MCP Gateway.",
+			"version": "0.1.1",
+			"author": {
+				"name": "dotKnewt",
+				"email": "dotknewt@keemail.me"
+			}
+		}
+	]
+}

@@ -1,0 +1,5 @@
+{
+	"name": "docker-toolkit",
+	"version": "0.1.1",
+	"description": "Build and validate Docker artifacts — multi-stage Dockerfiles, and packaging MCP servers as containers runnable via the Docker MCP Gateway."
+}
