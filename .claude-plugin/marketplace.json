@@ -27,16 +27,6 @@
 			}
 		},
 		{
-			"name": "agency-toolkit",
-			"source": "./agency-toolkit",
-			"description": "Local fork of Anthropic's plugin-dev toolkit — skills, agents, and commands for building Claude Code plugins.",
-			"version": "1.0.3",
-			"author": {
-				"name": "dotKnewt",
-				"email": "dotknewt@keemail.me"
-			}
-		},
-		{
 			"name": "hooks-toolkit",
 			"source": "./hooks-toolkit",
 			"description": "Composable safety and hygiene hooks — force-push guard, secret scanner, plugin/skill manifest validators, branch nudges, and dirty-tree stop check.",
